@@ -21,4 +21,4 @@ GROUP BY
     CASE 
         WHEN DATEDIFF(DAY, LastOrder, GETDATE()) > 90 THEN 'At Risk'
         ELSE 'Active'
-    END;
+    END
